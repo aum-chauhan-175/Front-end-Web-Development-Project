@@ -1,0 +1,98 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    background-color: white;
+    overflow: hidden;
+}
+
+.GameLayout {
+    background-image: url('/6537912.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 105%;
+    height: 100%;
+    width: 100%;
+}
+
+.car {
+    margin-bottom: 85px;
+    background-image: url('/car.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 155px;
+    width: 330px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.deer {
+    margin-bottom: 85px;
+    background-image: url('/deer-vector-11528207970rl6swn8u7n.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 120px;
+    width: 120px;
+    position: absolute;
+    bottom: 0;
+}
+
+.over {
+    visibility: hidden;
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+    font-family: monospace;
+    color: #656565;
+}
+
+.over2 {
+    text-align: center;
+    padding: 10px;
+    font-size: 40px;
+    font-family: monospace;
+    color: #656565;
+}
+
+.animateDeer {
+    animation: deer 0.7s linear;
+}
+
+@keyframes deer {
+    0% {
+        bottom: 0px;
+    }
+
+    50% {
+        bottom: 330px;
+    }
+
+    100% {
+        bottom: 0px;
+    }
+}
+
+.animateCar {
+    animation: animateCar 5s linear infinite;
+}
+
+@keyframes animateCar {
+    0% {
+        left: 100%;
+    }
+
+    100% {
+        left: -100%;
+    }
+}
+
+#LiveScore {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 40px;
+    font-family: monospace;
+    color: #656565;
+}

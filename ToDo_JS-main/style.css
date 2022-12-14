@@ -1,0 +1,249 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    width: 100%;
+    align-items: center;
+}
+
+.logoicon ul {
+    display: inline-flex;
+}
+
+.logoicon ul li svg {
+    padding-top: 4px;
+    padding-right: 20px;
+    scale: 120%;
+}
+
+.LogoName {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 28px;
+    padding-bottom: 18px;
+    margin-right: 10px;
+    color: #8E8E93;
+}
+
+.align_left_nav {
+    float: right;
+}
+
+.align_left_nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.align_left_nav ul li {
+    scale: 150%;
+    padding-right: 30px;
+}
+
+.align_left_nav ul li svg {
+    display: block;
+    color: #8E8E93;
+}
+
+.btn_style_nav {
+    background-color: rgba(240, 248, 255, 0);
+    border: none;
+    padding: 5px;
+    border-radius: 50px;
+}
+
+.btn_style_nav:hover {
+    background-color: rgba(228, 228, 228, 0.271);
+    transition: 0.2s;
+}
+
+.btn_style_nav_icon {
+    background-color: rgba(240, 248, 255, 0);
+    border: none;
+    padding: 5px;
+    border-radius: 50px;
+}
+
+.topbar {
+    background-color: #1C1C1E;
+    height: 55px;
+    padding: 5px;
+    padding-bottom: 10px;
+    margin-bottom: 70px;
+    /* display: flex; */
+    /* border-radius: 100px; */
+}
+
+.heading2 {
+    color: hwb(37deg 4% 0%);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font-size: 36px;
+    margin: 15px;
+}
+
+.lists {
+    width: 100%;
+}
+
+.listIn {
+    list-style-type: none;
+    width: 100%;
+    text-align: center;
+}
+
+#inputtext {
+    background-color: #1C1C1E;
+    justify-content: center;
+    width: 50%;
+    height: 40px;
+    border-radius: 15px;
+    border: none;
+    font-size: 24px;
+    padding: 27px;
+    margin-bottom: 50px;
+    color: gray;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#addBtn {
+    height: 53px;
+    width: 53px;
+    border-radius: 15px;
+    margin: 10px;
+    border: none;
+    background-color: #1C1C1E;
+    color: #3478F6;
+    font-weight: bolder;
+}
+
+#addBtn svg {
+    scale: 160%;
+}
+
+#addBtn:hover {
+    background-color: #1c1c1ec7;
+}
+
+.newaddedlist li {
+    display: block;
+    margin: auto;
+    width: 60%;
+    height: 45px;
+    border-radius: 15px;
+    list-style: none;
+    margin-top: 15px;
+    font-size: 22px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #1C1C1E;
+    padding-top: 15px;
+    /* color: #f76d2e; */
+}
+
+.listspan {
+    list-style: none;
+    padding-left: 30px;
+    color: #8E8E93;
+}
+
+#edittodo {
+    float: right;
+    margin-right: 15px;
+    text-align: center;
+    width: 50px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    background-color: hwb(135deg 21% 22%);
+    color: aliceblue;
+}
+
+#edittodo svg {
+    color: white;
+}
+
+#removetdo {
+    float: right;
+    margin-right: 15px;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    background-color: #EB4E3D;
+}
+
+#removetdo svg {
+    color: white;
+}
+
+#newin {
+    border-radius: 10px;
+    margin-left: 15px;
+    margin-top: 1px;
+    font-size: 22px;
+    width: 50%;
+    padding-left: 10px;
+    color: rgb(249, 242, 239);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgba(221, 215, 215, 0);
+    border: 1px solid gray;
+}
+
+li {
+    list-style: none;
+}
+
+/* Media QUeries  */
+
+@media (max-width : 995px) {
+    #inputtext {
+        justify-content: center;
+        width: 70%;
+        height: 40px;
+        font-size: 20px;
+        padding: 25px;
+        margin-bottom: 50px;
+    }
+
+    .topbar {
+        height: 50px;
+        margin: 30px;
+        padding-bottom: 0px;
+    }
+
+    .LogoName {
+        font-size: 20px;
+        margin-right: 0px;
+    }
+
+    .logoicon ul li svg {
+        padding-top: 0px;
+        padding-right: 0px;
+        width: 0px;
+        height: 0px;
+    }
+
+    .align_left_nav ul li {
+        scale: 160%;
+        padding-right: 20px;
+        padding-bottom: 10px;
+    }
+
+    .newaddedlist li {
+        width: 90%;
+        margin: 0px;
+        height: 45px;
+        border-radius: 10px;
+        list-style: none;
+        margin-top: 20px;
+        font-size: 18px;
+        padding-top: 15px;
+    }
+
+    #newin {
+        margin-left: 15px;
+        margin-top: 1px;
+        font-size: 20px;
+        padding-left: 10px;
+        width: 50%;
+    }
+}

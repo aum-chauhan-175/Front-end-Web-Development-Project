@@ -1,0 +1,780 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT';
+}
+
+.container {
+    width: 100%;
+    padding: 1rem 3rem;
+    height: fit-content;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 1.5%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+#iamtxt {
+    color: #53575F;
+}
+
+.navbar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.menu-icon {
+    cursor: pointer;
+    display: none;
+
+}
+
+nav {
+    flex: 1;
+    text-align: left;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 25px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 21px;
+}
+
+li a {
+    text-decoration: none;
+    color: #53575F;
+    font-size: 21px;
+}
+
+
+nav ul li ::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #757bc8;
+    display: block;
+    margin-top: 3px;
+    transition: 0.7s;
+
+}
+
+nav ul li :hover::after {
+    width: 100%;
+}
+
+nav ul li a:hover {
+    color: #757bc8;
+}
+
+
+li {
+    list-style: none;
+}
+
+.highlightName {
+    color: #8187dc;
+}
+
+.nameright {
+    padding-right: 25px;
+    color: #757bc8;
+}
+
+
+
+#darkmodebtn {
+    background-color: rgba(245, 222, 179, 0);
+    border: 0px;
+    padding: 10px;
+    border-radius: 100px;
+}
+
+#darkmodebtn:hover {
+    background-color: #f4ecfb;
+    transition: 0.5s;
+}
+
+#Lightmodebtn {
+    background-color: rgba(245, 222, 179, 0);
+    border: 0px;
+    padding: 10px;
+    border-radius: 100px;
+}
+
+#Lightmodebtn:hover {
+    background-color: #f4ecfb;
+    transition: 0.5s;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px 0;
+}
+
+.col-1 {
+    flex-basis: 50%;
+    position: relative;
+    margin: 15px;
+    text-align: right;
+}
+
+.col-1 h2 {
+    font-size: 60px;
+    font-weight: normal;
+}
+
+.col-1 h3 {
+    font-size: 28px;
+    color: #979DAC;
+    font-weight: normal;
+    margin: 30px 0 10px;
+}
+
+.col-1 p {
+    font-size: 20px;
+    color: #b7b7b7;
+    font-weight: normal;
+    margin: 30px 0 10px;
+}
+
+col-1 p {
+    margin: 30px 0;
+    font-size: 20px;
+}
+
+.contactme {
+    width: 140px;
+    border: 0;
+    padding: 12px 10px;
+    outline: none;
+    color: #fff;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.Mailme {
+    background-color: #8E94F2;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding: 9px 19px 9px 19px;
+    font-size: 21px;
+    margin-top: 30px;
+    border-radius: 100px;
+}
+
+.Mailme svg {
+    transform: scale(120%);
+    margin-right: 5px;
+}
+
+.Mailme:hover {
+    background-color: #6066b8;
+    transition: 0.5s;
+}
+
+.col-2 {
+    position: relative;
+    flex-basis: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.col-2 .bgimg {
+    width: 480px;
+}
+
+
+/* aboutme */
+
+#aboutme {
+    padding-top: 40px;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+
+.tittleaboutme {
+    font-weight: normal;
+    font-size: 36px;
+    text-align: center;
+    position: relative;
+    margin: auto;
+    width: 200px;
+    color: white;
+    border-radius: 110px;
+    background-color: #747df9;
+    padding: 5px;
+}
+
+.contain {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+}
+
+
+.aboutbody {
+    background-color: #fff;
+}
+
+.aboutmediscord {
+    background-color: #8E94F2;
+    padding: 8px;
+    color: white;
+    border: 0px;
+    border-radius: 100px;
+    font-size: 20px;
+    margin-top: 25px;
+    margin-right: 20px;
+}
+
+.aboutmediscord:hover {
+    background-color: #4b51af;
+    transition: 0.7s;
+}
+
+.aboutme1 {
+    display: flex;
+    flex-basis: 40%;
+    padding: 25px;
+    background-color: #FFF9FE;
+    flex-wrap: wrap;
+    font-size: 21px;
+    font-weight: 200;
+    color: #53575F;
+    border-radius: 20px;
+    justify-content: left;
+    text-align: left;
+    margin: 30px;
+}
+
+
+.aboutme2 {
+    display: flex;
+    flex-basis: 40%;
+    padding: 25px;
+    background-color: #FFF9FE;
+    flex-wrap: wrap;
+    font-size: 21px;
+    font-weight: 200;
+    color: #53575F;
+    border-radius: 20px;
+    justify-content: left;
+    text-align: left;
+    margin: 30px;
+}
+
+
+.aboutme3 {
+    display: flex;
+    flex-basis: 90%;
+    padding: 25px;
+    background-color: #FFF9FE;
+    flex-wrap: wrap;
+    font-size: 21px;
+    font-weight: 200;
+    color: #53575F;
+    border-radius: 20px;
+    justify-content: left;
+    text-align: left;
+    margin: 15px;
+    margin-bottom: 90px;
+}
+
+div.aboutme3 {
+    margin-top: 35px;
+}
+
+/* work  */
+
+#work {
+    background-color: #fffbfe;
+    padding-top: 40px;
+    padding-bottom: 80px;
+    margin-top: 60px;
+    margin-right: 5%;
+    margin-left: 5%;
+    border-radius: 20px;
+
+}
+
+.tittlework {
+    font-weight: normal;
+    font-size: 36px;
+    text-align: center;
+    position: relative;
+    margin: auto;
+    width: 300px;
+    color: white;
+    border-radius: 100px;
+    background-color: #747df9;
+    padding: 5px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.work_drops {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.dropdown {
+    background-color: #8E94F2;
+    padding: 15px;
+    color: white;
+    border: 0px;
+    border-radius: 40px;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    width: 50%;
+    text-align: left;
+}
+
+.dropdown2 {
+    background-color: #757bc8;
+    padding: 10px;
+    display: inline-block;
+    margin-top: 23px;
+    border: 0px;
+    border-radius: 100px;
+}
+
+.dropdown2:hover {
+    background-color: #4b51af;
+    transition: 0.5s;
+}
+
+.dropdown2 svg {
+    color: white;
+}
+
+.containdropdown {
+    width: 50%;
+    text-align: left;
+    font-size: 21px;
+    font-weight: 200;
+    color: #53575F;
+    margin-top: 15px;
+    padding-left: 20px;
+    margin-bottom: 30px;
+}
+
+.imgs {
+    filter: invert(100%);
+    padding-right: 10px;
+    padding-left: 15px;
+}
+
+.imgs2 {
+    filter: invert(100%);
+    padding-right: 10px;
+    padding-left: 20px;
+    float: right;
+    width: 20px;
+}
+
+/* displays */
+
+#contentdr2 {
+    display: none;
+}
+
+#contentdr3 {
+    display: none;
+}
+
+#contentdr4 {
+    display: none;
+}
+
+
+/* testiomnail */
+
+#testimonal {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 7%;
+}
+
+.tittletestimonal {
+    font-weight: normal;
+    font-size: 36px;
+    text-align: center;
+    margin: auto;
+    width: 220px;
+    color: white;
+    border-radius: 100px;
+    background-color: #747df9;
+    padding: 4px;
+    margin-bottom: 70px;
+    margin-top: 70px;
+}
+
+
+.aboutmetest {
+    display: flex;
+    flex-basis: 40%;
+    padding: 25px;
+    background-color: #FFF9FE;
+    flex-wrap: wrap;
+    font-size: 20px;
+    font-weight: 200;
+    color: #878c95;
+    border-radius: 20px;
+    justify-content: left;
+    text-align: left;
+    padding-bottom: 40px;
+    margin: 30px;
+    margin-top: 30px;
+
+
+}
+
+.cmtname {
+    margin-top: 10px;
+    margin-left: 10px;
+    font-weight: 400;
+}
+
+.containtest {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+}
+
+.Downloads {
+    color: #8E94F2;
+    text-decoration: none;
+    display: inline-block;
+    padding: 11px;
+    font-size: 21px;
+    margin-top: 10px;
+    border-radius: 8px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.divDownload {
+    margin-bottom: 15%;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.Downloads svg {
+    transform: scale(120%);
+    margin-right: 5px;
+}
+
+.Downloads:hover {
+    border: 1px solid #b8b3fb;
+    transition: 0.2s;
+    box-shadow: 1px 1px 20px #343a401a;
+}
+
+/* footer */
+
+footer {
+    background-color: #757bc8;
+    display: flex;
+    text-align: center;
+}
+
+.followmeHeading {
+    font-weight: normal;
+    font-size: 26px;
+    text-align: center;
+    color: white;
+    padding-top: 25px;
+    padding-bottom: 40px;
+}
+
+.r1 {
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    flex-basis: 50%;
+    padding-bottom: 30px;
+    border-right: 2px dashed #fbf6fa;
+}
+
+.r1 a {
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+
+.r2 {
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    flex-basis: 50%;
+    padding-bottom: 30px;
+}
+
+.r2 a {
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.r1 a svg {
+    transform: scale(120%);
+}
+
+.r2 a svg {
+    transform: scale(120%);
+}
+
+
+/* changes from beta 1 */
+
+.followiconsbg {
+    background-color: #3e44a3;
+    border-radius: 100px;
+    margin: 10px;
+    text-align: center;
+    display: inline-block;
+}
+
+.followiconsbg:hover {
+    background-color: #6067c8;
+    transition: 0.3s;
+    border: 1px solid white;
+
+
+}
+
+
+/* changes end  */
+
+
+@media only screen and (max-width:832px) {
+
+    nav ul {
+        width: 100%;
+        background-color: #c1c5fe;
+        position: absolute;
+        top: 55px;
+        border-radius: 0px 0px 40px 40px;
+        margin: auto;
+        right: 0;
+        z-index: 2;
+        color: #fff;
+    }
+
+    nav ul li {
+        display: block;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    nav ul li a {
+        color: #fff;
+    }
+
+    .menu-icon {
+        display: block;
+        width: 25px;
+    }
+
+    .col-2 .bgimg {
+        width: 280px;
+    }
+
+    #menuList {
+        overflow: hidden;
+        transition: 0.5s;
+    }
+
+    .row {
+        /* flex-direction: column-reverse; */
+        flex-direction: column;
+        margin: 50px 0;
+    }
+
+    .col-2 {
+        flex-basis: 100%;
+        margin-bottom: 50px;
+    }
+
+    .col-1 {
+        text-align: center;
+        flex-basis: 100%;
+    }
+
+    .nameright {
+        position: absolute;
+        left: 0;
+        padding-left: 30px;
+        margin-top: -10px;
+
+    }
+
+    /* about  */
+
+    .contain {
+        flex-wrap: wrap;
+    }
+
+    .aboutme1 {
+        flex-basis: 80%;
+        padding: 25px;
+        flex-wrap: wrap;
+        font-size: 20px;
+        border-radius: 20px;
+        margin: 10px;
+    }
+
+    .aboutme2 {
+        flex-basis: 80%;
+        padding: 25px;
+        flex-wrap: wrap;
+        font-size: 20px;
+        border-radius: 20px;
+        box-shadow: 2px, 9px, 15px black;
+        margin: 30px;
+    }
+
+    .aboutme3 {
+        flex-basis: 80%;
+        padding: 25px;
+        flex-wrap: wrap;
+        font-size: 20px;
+        border-radius: 20px;
+        box-shadow: 2px, 9px, 15px black;
+        margin: 30px;
+    }
+
+    .aboutmediscord {
+        padding: 8px;
+        border-radius: 100px;
+        font-size: 19px;
+        margin-top: 25px;
+        margin-right: 20px;
+    }
+
+    .dropdown {
+        width: 90%;
+        font-size: 17px;
+    }
+
+    .containdropdown {
+        width: 90%;
+        font-size: 17px;
+    }
+
+    .dropdown2 {
+        padding: 6px;
+        border: 0px;
+        border-radius: 5px;
+        margin-top: 20px;
+    }
+
+    .linkimg {
+        filter: invert(100%);
+        width: 16px;
+    }
+
+    .imgs {
+        filter: invert(100%);
+        float: left;
+        padding-right: 5px;
+        padding-left: 0px;
+    }
+
+    .imgs2 {
+        filter: invert(100%);
+        padding-right: 0px;
+        padding-left: 0px;
+        float: right;
+        width: 20px;
+    }
+
+    .aboutmetest {
+        flex-basis: 80%;
+    }
+
+}
+
+@media only screen and (max-width:1220px) {
+
+    .aboutme1 {
+        flex-basis: 80%;
+        padding: 25px;
+        flex-wrap: wrap;
+        font-size: 20px;
+        border-radius: 20px;
+        margin: 25px;
+    }
+
+    .aboutme2 {
+        flex-basis: 80%;
+        padding: 25px;
+        flex-wrap: wrap;
+        font-size: 20px;
+        border-radius: 20px;
+        box-shadow: 2px, 9px, 15px black;
+        margin: 25px;
+    }
+
+    .aboutme3 {
+        flex-basis: 80%;
+        padding: 25px;
+        flex-wrap: wrap;
+        font-size: 20px;
+        border-radius: 20px;
+        box-shadow: 2px, 9px, 15px black;
+        margin: 25px;
+    }
+
+    .aboutmediscord {
+        padding: 8px;
+        border-radius: 100px;
+        font-size: 19px;
+        margin-top: 25px;
+        margin-right: 20px;
+    }
+}
+
+/* Durfacebook 7 */
+@media only screen and (max-width:913px) {
+    .dropdown {
+        width: 90%;
+        font-size: 17px;
+    }
+
+    .containdropdown {
+        width: 90%;
+        font-size: 17px;
+    }
+
+    .dropdown2 {
+        padding: 6px;
+        border: 0px;
+        border-radius: 100px;
+        margin-top: 20px;
+    }
+
+}

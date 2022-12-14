@@ -1,0 +1,123 @@
+body {
+    margin: 0px;
+    padding: 0;
+    background-color: #202124;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.top_nav ul li {
+    float: right;
+    font-size: 16px;
+    padding: 8px;
+    list-style: none;
+}
+
+.top_nav ul li a img {
+    width: 19px;
+    filter: invert(1);
+}
+
+.signin {
+    padding: 7px;
+    width: 70px;
+    height: 35px;
+    background-color: rgb(0, 111, 214);
+    color: white;
+    font-size: 15px;
+    border: 0px;
+    border-radius: 7px;
+    text-align: center;
+    margin-top: -6px;
+}
+
+.signin:hover {
+    background-color: rgb(6, 119, 224);
+}
+
+.top_nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.top_nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.navogate {
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.logo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.logoimg {
+    margin-top: 100px;
+    width: 280px;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+}
+
+.search form input {
+    width: 28rem;
+    height: 40px;
+    margin: 20px;
+    border-radius: 20px;
+    background-color: #202124;
+    border: 1px solid #5f6367;
+    padding: 10px;
+    color: #dadce0;
+}
+
+.search form input:hover {
+    box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.189);
+    border: 0px;
+    background-color: #303134;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 45%;
+}
+
+.searchbtn:hover {
+    border: 1px solid #5f6367;
+    box-shadow: 0px 0px 0.2px rgba(0, 0, 0, 0.189);
+
+}
+
+.searchbtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #303134;
+    color: #dadce0;
+    border: 0px;
+    border-radius: 5px;
+    height: 30px;
+    padding: 10px;
+    margin: 10px;
+    font-size: 14px;
+}
+
+footer {
+    height: 90px;
+    background-color: #171717;
+    color: #99a0a4;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+.footertittle {
+    padding-top: 15px;
+    height: 30px;
+    margin-left: 30px;
+}
